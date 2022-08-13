@@ -10,15 +10,15 @@ django rest framework 3.12.4
 ### Запуск проекта в dev-режиме
 - Установите и активируйте виртуальное окружение
 - Установите зависимости из файла requirements.txt
-```
+```BASH
 pip install -r requirements.txt
 ``` 
-- Затем просто примените миграции: 
-```
+- Затем папке с файлом manage.py просто примените миграции: 
+```BASH
 python manage.py migrate
 ```
 - В папке с файлом manage.py выполните команду:
-```
+```BASH
 python manage.py runserver
 ```
 ### Автор
